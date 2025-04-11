@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETUDEAL | Économise à Montréal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fc;
+      color: #333;
+    }
+
+    header {
+      background-color: #bdc3c7;
+      background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1588776814546-4c3873d8f06b');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      margin-top: 15px;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .illustration {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    .cta, .contact, .partners, .about, .blog, .avis {
+      background-color: #ecf0f1;
+      padding: 40px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .footer {
+      background-color: #bdc3c7;
+      color: #2c3e50;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95em;
+    }
+
+    form input, form textarea {
+      font-family: inherit;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+
+    form input[type="text"], form input[type="email"], form textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      background-color: #2ecc71;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    form button:hover {
+      background-color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ETUDEAL</h1>
+    <p>Étudiant à Montréal ? Compare les prix et économise sur tous tes achats du quotidien</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#blog">Blog</a>
+    <a href="#partners">Partenaires</a>
+    <a href="#avis">Avis</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Bienvenue sur ETUDEAL</h2>
+    <p>Notre application te permet de comparer les prix, suivre ton budget, et interagir avec d'autres étudiants.</p>
+    <img src="https://images.unsplash.com/photo-1603574471372-cfdb9e5f87f2" alt="Illustration accueil" class="illustration">
+  </section>
+
+  <section id="about" class="about">
+    <h2>À propos de nous</h2>
+    <p>Nous sommes une équipe d'étudiants passionnés qui veulent aider les autres à économiser et mieux vivre à Montréal.</p>
+    <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Équipe" class="illustration">
+  </section>
+
+  <section id="blog" class="blog">
+    <h2>Derniers articles du blog</h2>
+    <p>Explore nos conseils pratiques, astuces et retours d'expérience d'étudiants.</p>
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Blog étudiant" class="illustration">
+  </section>
+
+  <section id="partners" class="partners">
+    <h2>Nos partenaires</h2>
+    <p>Découvrez les entreprises et institutions qui soutiennent notre mission.</p>
+    <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" alt="Partenaires" class="illustration">
+  </section>
+
+  
+
+  
+  <section id="choisir" class="about">
+    <h2>Pourquoi choisir ETUDEAL ?</h2>
+    <p>ETUDEAL est conçu spécialement pour les étudiants montréalais. Grâce à notre plateforme, tu peux :</p>
+    <ul>
+      <li>Comparer facilement les prix d’articles essentiels entre plusieurs détaillants locaux.</li>
+      <li>Faire des choix éclairés pour mieux gérer ton budget étudiant.</li>
+      <li>Découvrir les meilleures offres disponibles autour de toi.</li>
+      <li>Rejoindre une communauté solidaire d’étudiants soucieux de leur pouvoir d’achat.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e" alt="Pourquoi choisir ETUDEAL" class="illustration">
+  </section>
+
+
+  
+  <section id="avis" class="avis">
+    <h2>Ton avis compte !</h2>
+    <p>Tu utilises ETUDEAL ? Dis-nous ce que tu en penses :</p>
+    <form action="#" method="POST">
+      <input type="text" name="nom" placeholder="Ton prénom" required>
+      <textarea name="avis" placeholder="Ton avis..." rows="4" required></textarea>
+      <button type="submit">Envoyer l'avis</button>
+    </form>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <h2>Contacte-nous</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Ton nom" required>
+      <input type="email" name="email" placeholder="Ton email" required>
+      <textarea name="message" placeholder="Ton message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <div class="footer">
+    Ce projet est développé par des étudiants pour des étudiants. Merci de contribuer à la création d’ETUDEAL ❤️
+  </div>
+
+</body>
+</html>
